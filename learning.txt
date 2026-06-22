@@ -1,0 +1,3 @@
+# Here i  will write some code which will be helpful for ubuntu terminal
+1.Find Where Your File Is Located
+find ~ -name "*.m" 2>/dev/null
