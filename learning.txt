@@ -1,3 +1,18 @@
 # Here i  will write some code which will be helpful for ubuntu terminal
 1.Find Where Your File Is Located
 find ~ -name "*.m" 2>/dev/null
+
+# Now how to generate the token
+Option 1: Personal Access Token (HTTPS) — Easiest
+Step 1: Generate a token on GitHub
+
+Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+Click Generate new token
+Select scope: ✅ repo
+Copy the token
+
+Step 2: Push using the token
+git remote set-url origin https://<YOUR_USERNAME>:<YOUR_TOKEN>@github.com/engparth-cmd/Learning_Notebook.git
+git push origin main
+
+Note: do not use <> when u paste the username and token.
