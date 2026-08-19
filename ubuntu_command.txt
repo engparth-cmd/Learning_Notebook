@@ -3,3 +3,4 @@
 2.now open terminal in the ubuntu in the directory where u have downloaded the files 
 3 type  : sudo apt install -fy ./rustdesk-1.4.9-x86_64.deb
 or type:  sudo apt install ./rustdesk-1.4.9-x86_64.deb 
+\\ to check the ip address use hostname -I \\
