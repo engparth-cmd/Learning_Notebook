@@ -1,0 +1,5 @@
+// How to install rust desk in Ubuntu //
+1. First install rustdesk from the  google 
+2.now open terminal in the ubuntu in the directory where u have downloaded the files 
+3 type  : sudo apt install -fy ./rustdesk-1.4.9-x86_64.deb
+or type:  sudo apt install ./rustdesk-1.4.9-x86_64.deb 
